@@ -1,0 +1,15 @@
+/* Definindo o estilo básico da imagem */
+.imagem-container {
+    width: 300px; /* Defina a largura inicial desejada */
+    overflow: hidden; /* Esconde qualquer parte da imagem que saia dos limites */
+}
+
+.zoom-imagem {
+    width: 100%;
+    transition: transform 0.3s ease; /* Animação suave durante o hover */
+}
+
+/* Efeito de zoom ao passar o mouse */
+.zoom-imagem:hover {
+    transform: scale(1.1); /* Aumenta a imagem em 10% */
+}
